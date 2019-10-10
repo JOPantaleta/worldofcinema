@@ -1,0 +1,91 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	min-height: 100;
+	background: linear-gradient(to bottom, #000000 55%, #b30000 100%);
+}
+
+.navigation
+{
+	background: linear-gradient(to top, #000000 70%, #b30000 100%) !important;
+}
+
+.brandName
+{
+	margin-bottom: 0 !important;
+	color: #fff;
+	font-size: 25pt;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.brandName .initials
+{
+	color: #e50914;
+	font-size: 40pt;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+#navbarSupportedContent
+{
+	align-items: bottom !important;
+}
+
+.userName
+{
+	font-size: 12pt;
+	color: #fff !important;
+}
+
+.userName .fas
+{
+	font-size: 20pt;
+	color: #fff !important;
+}
+
+.footer
+{
+	height:50px;
+	background-color: #000;
+	width: 100% !important;
+}
+
+.poster_image
+{
+	height:60vh;
+	width: 100% !important;
+}
+
+.moviedetails
+{
+	background-color: transparent;
+	padding-top: 1vh;
+	padding-bottom: 5vh;
+}
+
+.overview
+{
+	font-size: 11pt;	
+	
+}
+
+.additionaldetails
+{
+	margin-bottom: 2px;
+}
+
+.labeldetail
+{
+	font-weight: bold;
+	color: #e50914;
+}
+
+.timeslot
+{
+	margin-bottom: 10px !important;
+	font-style: italic;
+}

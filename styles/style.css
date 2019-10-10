@@ -1,0 +1,80 @@
+/*Default CSS*/
+body
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*setting of background image*/
+#landingpage
+{
+	height: 100vh;
+	position: relative;
+	background: url("../assets/images/landing/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #000;
+	overflow:hidden;
+}
+
+#landingpage::after
+{
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.6);
+    z-index: 1;
+    box-shadow: inset 120px 100px 250px #000, 
+    			inset -120px -100px 250px #000;
+}
+
+#pagecontent
+{
+	position: relative;
+	z-index: 2;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.brand
+{
+	color: #e50914;
+	font-size: 50pt;
+}
+
+.tagline
+{
+	color: white;
+	font-size: 25pt;
+}
+
+.initials
+{
+	color: #e50914;
+	font-size: 100pt;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+.filler
+{
+	height: 30vh;
+}
+
+.cinemaworld
+{
+	font-size: 60pt;
+}
+
+.tagline
+{
+	font-size: 20pt;
+	letter-spacing: 5px;
+	color: #e50914;
+	
+}

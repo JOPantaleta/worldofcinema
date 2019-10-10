@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<!-- meta tag to allow all char on the web -->
+	<meta charset="utf-8">
+
+	<!-- meta tag: width of the screen considers the full width of the page -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- meta tag that prompts internet explorer to display page to the highest mode there is -->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- project title -->
+	<title>Cinema World</title>
+
+	<!-- linking CSS to html -->
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+	<!-- CDN of fontawesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+	<!-- CSS CDN by Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Poppins|Rubik|Roboto:300" rel="stylesheet" type="text/css">
+
+	<link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+
 </head>
 <body>
-	<!-- This will be our landing page -->
+	<!-- This will be the landing page -->
+	<div class="container-fluid" id="landingpage">
+		<div class="row filler"></div>
+		<div class="row justify-content-center align-center mb-5 text-center" id="pagecontent">
+			<div class="col-md-8 titlebox">
+				<h1 class="text-light cinemaworld"><span class="initials">C</span>inema <span class="initials">W</span>orld</h1>
+				<p class="tagline text-light">A meaningful cinema experience</p>
+			</div>
 
+			<div class="col-md-5 mb-4">
+				<a class="btn btn-outline-light btn-block" href="./01_home.html">
+					Reserve Now
+				</a>
+			</div>
 
-</body>
+		</div>
+	</div>
+
+</body >
+	<!-- link javascript to html -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$('#landingpage').mousemove(function(e){
+			var moveX = (e.pageX * 1 / 85);
+			var moveY = (e.pageY * 1 / 85);
+			$(this).css('background-position', moveX + 'px ' + moveY + 'px ')
+		})
+	</script>
+	<!-- JS CDN by Bootstrap-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>

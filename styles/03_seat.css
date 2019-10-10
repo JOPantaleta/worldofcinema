@@ -1,0 +1,144 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(to bottom, #000000 55%, #b30000 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navigation
+{
+	background: linear-gradient(to top, #000000 70%, #b30000 100%) !important;
+}
+
+.brandName
+{
+	margin-bottom: 0 !important;
+	color: #fff;
+	font-size: 25pt;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.brandName .initials
+{
+	color: #e50914;
+	font-size: 40pt;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+#navbarSupportedContent
+{
+	align-items: bottom !important;
+}
+
+.userName
+{
+	font-size: 12pt;
+	color: #fff !important;
+}
+
+.userName .fas
+{
+	font-size: 20pt;
+	color: #fff !important;
+}
+
+
+/*Screen*/
+.screen
+{
+	border: 3px solid white;
+	letter-spacing: 15px !important;
+	padding: 10px;
+}
+
+/*Seats*/
+.box
+{
+	height:30px;
+	width: 30px;
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: bold;
+
+}
+.space
+{
+	border: none;
+	width: 20px;
+}
+
+.seatrow
+{
+	padding:0;
+}
+
+.seat
+{
+	background-color: #268f18;
+	color: #000;
+}
+
+.legendbox
+{
+	margin-top: 2vh;
+	height: 50px;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	padding: 2px;
+}
+.legend
+{
+	color: #fff;
+	margin-left: 5px;
+}
+
+.taken
+{
+	background-color: #b30000;
+	color: #000;
+}
+
+.legendbtn
+{
+	height:20px;
+	width: 20px;
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: bold;
+}
+
+/*Footer*/
+footer 
+{
+  background-color: #000;
+}
+
+.sum,
+.total
+{
+	font-size: 14pt;
+	font-family: 'Poppins', sans-serif;
+}
+
+.sum
+{
+	letter-spacing: 2px;
+}
+.total
+{
+	letter-spacing: 5px;
+}
