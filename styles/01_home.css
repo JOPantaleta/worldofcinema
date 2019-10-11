@@ -70,17 +70,16 @@ body
 
 .movie-title 
 {
-	font-size: 22px;
+	font-size: 20px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	text-transform: uppercase;
+	margin-top: 3vh;
 }
 
 .movie-details 
 {
-	position: absolute;
-	top: 40%;
-	left: 40%;
+	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	margin:0;
 }
@@ -97,8 +96,8 @@ body
 	color: white;
 	border-radius: 40px;
 	font-family: 'Poppins', sans-serif;
-	font-weight: 800;
-	font-size: 14px;
+	font-weight: 600;
+	font-size: 12px;
 	letter-spacing: 0.5px;
 }
 
@@ -108,14 +107,9 @@ body
 	margin-bottom: 5vh !important;
 }
 
-.other-details
-{
-	font-size: 10pt;
-}
-
 .other-details span
 {
-	font-size: 12pt;
+	font-size: 14pt;
 }
 
 .footer
@@ -134,15 +128,15 @@ body
 	display: inline-block;
 	position: relative;
 	cursor: pointer;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	border:2px solid #ddd; /* add border to the buttons */
 	box-shadow: 0 3px 3px #999;
 	padding: 0px;
 	text-decoration: none;
 	text-align: center;
 	color: #fff;
-	font-size: 25px;
+	font-size: 18;
 	font-weight: normal;
 	line-height: 2em;
 	border-radius: 27px;
@@ -252,7 +246,7 @@ body
 	background: #e88845;
 }
 
-.rssBtn:before{
+.rssBtn:before{	
 	font-family: "FontAwesome";
 	content: "\f09e"; /* add rss icon */
 }

@@ -4,8 +4,8 @@ body
 	padding: 0;
 	justify-content: center;
 	align-items: center;
-	min-height: 100;
-	background: linear-gradient(to bottom, #000000 55%, #b30000 100%);
+	min-height: 100vh;
+	background: linear-gradient(to bottom, #000000 95%, #b30000 100%);
 }
 
 .navigation
@@ -47,11 +47,10 @@ body
 	color: #fff !important;
 }
 
-.footer
+footer 
 {
-	height:50px;
-	background-color: #000;
-	width: 100% !important;
+  background: linear-gradient(to bottom, #000000 75%, #b30000 100%);
+  width: 100%;
 }
 
 .poster_image
@@ -63,7 +62,7 @@ body
 .moviedetails
 {
 	background-color: transparent;
-	padding-top: 1vh;
+	padding-top: 2vh;
 	padding-bottom: 5vh;
 }
 
@@ -76,16 +75,32 @@ body
 .additionaldetails
 {
 	margin-bottom: 2px;
+	font-size: 11pt;
 }
 
 .labeldetail
 {
 	font-weight: bold;
-	color: #e50914;
+	color: #fa0800;
 }
 
 .timeslot
 {
 	margin-bottom: 10px !important;
 	font-style: italic;
+}
+
+#movieschedule
+{
+	width: 50%;
+}
+
+.footer-copyright
+{
+	color: #fff;
+}
+
+.footer-copyright a
+{
+	color: #fa0800;
 }
