@@ -5,6 +5,7 @@ body
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+	font-family: 'Poppins', sans-serif;
 	background: linear-gradient(to bottom, #000000 55%, #b30000 100%);
 }
 

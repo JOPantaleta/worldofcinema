@@ -2,15 +2,12 @@
 <html>
 <head>
 	<title>Cinema World</title>
-	<!-- CSS CDN Bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles/animate.css">
 
-	<!-- fontawesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-	<link rel="stylesheet" type="text/css" href="htts://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 	<link href="https://fonts.googleapis.com/css?family=Holtwood+One+SC&display=swap" rel="stylesheet">
 
@@ -18,6 +15,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito|Poppins|Rubik|Roboto:300" rel="stylesheet" type="text/css">
 
 	<link rel="stylesheet" type="text/css" href="styles/03_seat.css">
+
+	<!-- linking of Popper.js -->
+	<script type="text/javascript" src="scripts/popper.min.js"></script>
+
+	<!-- linking of JQuery -->
+	<script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+
+	<!-- linking of JQuery -->
+	<script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 	<!-- Navbar -->
@@ -69,7 +75,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pr-5">
+							<div class="space pr-5">
 								A
 							</div>
 						</td>
@@ -80,52 +86,52 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="A1" value="A1">
 								1
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="A2">
 								2
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="A3">
 								3
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="A4">
 								4
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="A5">
 								5
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="A6">
 								6
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="A7">
 								7
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="A8">
 								8
 							</div>
 						</td>
@@ -136,7 +142,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pl-5">
+							<div class="space pl-5">
 								A
 							</div>
 						</td>
@@ -150,7 +156,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pr-5">
+							<div class="space pr-5">
 								B
 							</div>
 						</td>
@@ -161,52 +167,52 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="B1">
 								1
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="B2">
 								2
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="B3">
 								3
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="B4">
 								4
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="B5">
 								5
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="B6">
 								6
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="B7">
 								7
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="B8">
 								8
 							</div>
 						</td>
@@ -217,7 +223,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pl-5">
+							<div class="space pl-5">
 								B
 							</div>
 						</td>
@@ -231,7 +237,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pr-5">
+							<div class="space pr-5">
 								C
 							</div>
 						</td>
@@ -242,52 +248,52 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="C1">
 								1
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="C2">
 								2
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="C3">
 								3
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="C4">
 								4
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="C5">
 								5
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="C6">
 								6
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="C7">
 								7
 							</div>
 						</td>
 						<td>
-							<div class="box btn seat">
+							<div class="box btn seat" id="C8">
 								8
 							</div>
 						</td>
@@ -298,7 +304,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pl-5">
+							<div class="space pl-5">
 								C
 							</div>
 						</td>
@@ -312,7 +318,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pr-5">
+							<div class="space pr-5">
 								D
 							</div>
 						</td>
@@ -333,7 +339,7 @@
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
@@ -358,7 +364,7 @@
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
@@ -379,7 +385,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pl-5">
+							<div class="space pl-5">
 								D
 							</div>
 						</td>
@@ -393,7 +399,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pr-5">
+							<div class="space pr-5">
 								E
 							</div>
 						</td>
@@ -414,7 +420,7 @@
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
@@ -439,7 +445,7 @@
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
@@ -460,7 +466,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pl-5">
+							<div class="space pl-5">
 								E
 							</div>
 						</td>
@@ -474,7 +480,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pr-5">
+							<div class="space pr-5">
 								F
 							</div>
 						</td>
@@ -495,7 +501,7 @@
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
@@ -520,7 +526,7 @@
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
@@ -541,7 +547,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pl-5">
+							<div class="space pl-5">
 								F
 							</div>
 						</td>
@@ -555,7 +561,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pr-5">
+							<div class="space pr-5">
 								G
 							</div>
 						</td>
@@ -576,7 +582,7 @@
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
@@ -601,7 +607,7 @@
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
@@ -622,7 +628,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pl-5">
+							<div class="space pl-5">
 								G
 							</div>
 						</td>
@@ -636,7 +642,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pr-5">
+							<div class="space pr-5">
 								H
 							</div>
 						</td>
@@ -657,7 +663,7 @@
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
@@ -682,7 +688,7 @@
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
@@ -703,7 +709,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pl-5">
+							<div class="space pl-5">
 								H
 							</div>
 						</td>
@@ -717,7 +723,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pr-5">
+							<div class="space pr-5">
 								I
 							</div>
 						</td>
@@ -738,7 +744,7 @@
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
@@ -763,7 +769,7 @@
 							</div>
 						</td>
 						<td>
-							<div class="box space">
+							<div class="space">
 								
 							</div>
 						</td>
@@ -784,7 +790,7 @@
 				<table class="text-center mx-auto">
 					<tr>
 						<td>
-							<div class="box space pl-5">
+							<div class="space pl-5">
 								I
 							</div>
 						</td>
@@ -804,17 +810,16 @@
 							<h6 class="align-middle text-light pt-2 pl-2 text-right">Legend: </h6>
 						</div>
 						<div class="col text-center">
-							<div class="seat box btn disabled legendbtn"></div><span class="legend">- Available</span>
+							<div class="legendAvailable legendicon btn disabled legendbtn"></div><span class="legend">- Available</span>
 						</div>
 						<div class="col">
-							<div class="seat box btn taken disabled legendbtn"></div><span class="legend">- Taken</span>
+							<div class="legendicon btn legendTaken disabled legendbtn"></div><span class="legend">- Taken</span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 
 	<!-- Footer -->
 	<footer class="page-footer font-small blue pb-2 container-fluid">
@@ -828,7 +833,7 @@
 						</div>
 						<div class="col-md-2"></div>
 						<div class="col sum text-center text-light">
-							<span class="amount">0.00</span>
+							<span class="amount">0</span>.00
 						</div>
 					</div>
 				</div>
@@ -836,49 +841,46 @@
 		</div>	
 		<!-- Button to payment -->
 		<div class="footer-copyright text-center py-2"><div class="row justify-content-center">
-				<div class="col-md-4">
-					<button class="btn btn-outline-light btn-block">
-						Proceed to Payment
-					</button>
-				</div>
+			<div class="col-md-4">
+				<button class="btn btn-outline-light btn-block">
+					Proceed to Payment
+				</button>
 			</div>
 		</div>
-	</footer>
-	<footer class="page-footer font-small blue fixed-bottom pb-2">
-		<!-- Total Cost -->
-		<div class="footer-copyright text-center py-3">
-			<div class="row justify-content-center">
-				<div class="col-md-4">
-					<div class="row justify-content-center">
-						<div class="col total text-center text-light">
-							Total
-						</div>
-						<div class="col-md-2"></div>
-						<div class="col sum text-center text-light">
-							<span class="amount">0.00</span>
-						</div>
+	</div>
+</footer>
+<footer class="page-footer font-small blue fixed-bottom pb-2">
+	<!-- Total Cost -->
+	<div class="footer-copyright text-center py-3">
+		<div class="row justify-content-center">
+			<div class="col-md-4">
+				<div class="row justify-content-center">
+					<div class="col total text-center text-light">
+						Total
+					</div>
+					<div class="col-md-2"></div>
+					<div class="col sum text-center text-light">
+						<span class="amount">0</span>.00
 					</div>
 				</div>
 			</div>
-		</div>	
-		<!-- Button to payment -->
-		<div class="footer-copyright text-center py-2"><div class="row justify-content-center">
-				<div class="col-md-4">
-					<button class="btn btn-outline-light btn-block">
-						Proceed to Payment
-					</button>
-				</div>
-			</div>
 		</div>
-	</footer>
-</body>
-<script src="scripts/seat.js"></script>
-<script
-src="http://code.jquery.com/jquery-3.4.1.min.js"
-integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-crossorigin="anonymous"></script>
+	</div>	
+	<!-- Button to payment -->
+	<div class="footer-copyright text-center py-2"><div class="row justify-content-center">
+		<div class="col-md-4">
+			<button class="btn btn-outline-light btn-block">
+				Proceed to Payment
+			</button>
+		</div>
+	</div>
+</div>
+</footer>
+<script src="scripts/03_seat.js"></script>
 <!-- JS CDN for Bootstrap -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
 </html>

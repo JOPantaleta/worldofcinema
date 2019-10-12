@@ -1,3 +1,10 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body
 {
 	margin: 0;
@@ -5,8 +12,9 @@ body
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	font-family: 'Poppins', sans-serif;
-	background: linear-gradient(to bottom, #000000 95%, #b30000 100%);
+	background: linear-gradient(to bottom, #000000 85%, #b30000 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .navigation
@@ -48,54 +56,6 @@ body
 	color: #fff !important;
 }
 
-footer 
-{
-  background: linear-gradient(to bottom, #000000 75%, #b30000 100%);
-  width: 100%;
-}
-
-.poster_image
-{
-	height:60vh;
-	width: 100% !important;
-}
-
-.moviedetails
-{
-	background-color: transparent;
-	padding-top: 2vh;
-	padding-bottom: 5vh;
-}
-
-.overview
-{
-	font-size: 11pt;	
-	
-}
-
-.additionaldetails
-{
-	margin-bottom: 2px;
-	font-size: 11pt;
-}
-
-.labeldetail
-{
-	font-weight: bold;
-	color: #fa0800;
-}
-
-.timeslot
-{
-	margin-bottom: 10px !important;
-	font-style: italic;
-}
-
-#movieschedule
-{
-	width: 50%;
-}
-
 .footer-copyright
 {
 	color: #fff;
@@ -103,5 +63,5 @@ footer
 
 .footer-copyright a
 {
-	color: #fa0800;
+	color: #fff;
 }

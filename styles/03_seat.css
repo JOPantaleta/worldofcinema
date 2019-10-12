@@ -14,6 +14,7 @@ body
 	min-height: 100vh;
 	background: linear-gradient(to bottom, #000000 55%, #b30000 100%);
 	background-repeat: no-repeat;
+	font-family: 'Poppins', sans-serif;
 	background-size: cover;
 }
 
@@ -77,6 +78,9 @@ body
 }
 .space
 {
+	color: #fff;
+	font-weight: bold;
+	height:30px;
 	border: none;
 	width: 20px;
 }
@@ -91,6 +95,8 @@ body
 	background-color: #268f18;
 	color: #000;
 }
+
+
 
 .legendbox
 {
@@ -110,6 +116,27 @@ body
 {
 	background-color: #b30000;
 	color: #000;
+}
+
+.legendAvailable
+{
+	background-color: #268f18;
+	color: #000;
+}
+
+.legendTaken
+{
+	background-color: #b30000;
+	color: #000;
+}
+
+.legendicon
+{
+	height:30px;
+	width: 30px;
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: bold;
 }
 
 .legendbtn
