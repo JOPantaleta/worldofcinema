@@ -28,7 +28,7 @@
 <body>
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-dark navigation sticky-top">
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="01_home.html">
 			<p class="brandName">
 				<span class="initials">C</span>inema
 				<span class="initials">W</span>orld
@@ -828,12 +828,12 @@
 			<div class="row justify-content-center">
 				<div class="col-md-4">
 					<div class="row justify-content-center">
-						<div class="col total text-center text-light">
+						<div class="col total text-center" style="color: black;">
 							Total
 						</div>
 						<div class="col-md-2"></div>
-						<div class="col sum text-center text-light">
-							<span class="amount">0</span>.00
+						<div class="col sum text-center" style="color: #000;">
+							<span class>0</span>.00
 						</div>
 					</div>
 				</div>
@@ -842,7 +842,7 @@
 		<!-- Button to payment -->
 		<div class="footer-copyright text-center py-2"><div class="row justify-content-center">
 			<div class="col-md-4">
-				<button class="btn btn-outline-light btn-block">
+				<button class="btn btn-outline-dark btn-block confirmbutton" style="border-color: #000; color: black;">
 					Proceed to Payment
 				</button>
 			</div>
@@ -869,14 +869,15 @@
 	<!-- Button to payment -->
 	<div class="footer-copyright text-center py-2"><div class="row justify-content-center">
 		<div class="col-md-4">
-			<button class="btn btn-outline-light btn-block">
+			<a class="btn btn-outline-light btn-block confirmbutton" role="button" href="04_payment.html">
 				Proceed to Payment
-			</button>
+			</a>
 		</div>
 	</div>
 </div>
 </footer>
 <script src="scripts/03_seat.js"></script>
+<script src="scripts/data.js"></script>
 <!-- JS CDN for Bootstrap -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

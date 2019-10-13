@@ -118,6 +118,12 @@ body
 	color: #000;
 }
 
+.disable
+{
+	background-color: #b30000;
+	color: #000;
+}
+
 .legendAvailable
 {
 	background-color: #268f18;
@@ -169,4 +175,9 @@ footer
 .total
 {
 	letter-spacing: 5px;
+}
+
+.page-footer2
+{
+	height: 1108.400px;
 }

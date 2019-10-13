@@ -56,6 +56,15 @@ body
 	color: #fff !important;
 }
 
+/*Content*/
+.divider
+{
+	border: #fff solid 1px;
+
+}
+
+
+/*Footer*/
 .footer-copyright
 {
 	color: #fff;
